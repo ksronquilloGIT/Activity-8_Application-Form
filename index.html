@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <div class="container form-container">
+        <div class="row row-container-0">
+            <div class=" col-md col-container-0 ">
+                <br>
+                <H2 class="h2 text-center border-bottom">Job Application form</H2>
+                <br>
+                <p class="h5 text-center border-bottom">Thank you for your interest in working with us. Please
+                    check below
+                    for other opportunities that
+                    meet your criteria and send your application form by filling out the Job Application Form
+                </p>
+            </div>
+        </div>
+
+        <div class="row row-container-1">
+            <div class="col-md col-container-1">
+                <form>
+                    <label for="form-label">Input your Name</label>
+                    <br>
+                    <div class="input-group">
+                        <input type="text" id="fname" placeholder="First Name" class="form-control">
+                        <input type="text" id="mname" placeholder="Midle Name" class="form-control">
+                        <input type="text" id="lname" placeholder="Last Name" class="form-control">
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <span class="input-group-text ">Email</span>
+                        <input type="text" id="email" placeholder="you@domain.com" class="form-control">
+                        <br>
+                        <span class="input-group-text">Mobile #</span>
+                        <input type="number" id="pnum" placeholder="+63" class="form-control">
+                    </div>
+                    <br>
+
+                    <!--Radio-->
+                    <Div class="radio-container">
+                        <label class="form-check-inline">Gender:</label>
+                        <input class="form-check-input" type="radio" id="gender" name="gender" value="Male">
+                        <label class="form-check-inline">Male</label>
+                        <input class="form-check-input" type="radio" id="gender" name="gender" value="Female">
+                        <label class="form-check-inline">Female</label>
+                    </div>
+                    <br>
+
+                    <div class="input-group">
+                        <span class="input-group-text">Address</span>
+                        <textarea class="form-control" aria-label="With textarea"
+                            placeholder="House Number, Street, Brgy"></textarea>
+                    </div>
+                    <br>
+                    <div class="input-group">
+                        <span class="input-group-text">Select Area</span>
+                        <select class="input-select form-select place">
+                            <option></option>
+                            <option>metro manila</option>
+                            <option>valenzuela</option>
+                            <option>paranaque</option>
+                            <option>pasay city</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="col-md col-container-2">
+                <form>
+                    <Label class="form-label">What Position are you applying for?</Label><br>
+                    <select class="form-select">
+                        <option>Select</option>
+                        <option>Front End</option>
+                        <option>Back End</option>
+                        <option>VA</option>
+                        <option>Graphic Designer</option>
+                    </select>
+                    <br>
+                    <div class="input-group">
+                        <span class="input-group-text">Available date and Time</span>
+                        <input type="date" class="form-control"><br>
+                        <input type="time" class="form-control">
+                    </div>
+                    <br>
+                    <!--Emp Radio-->
+                    <Div class="radio-container">
+                        <label class="form-label" for="EmpStat"> What is your current employment status:</label>
+                        <br>
+                        <input class="form-check-input" type="radio" id="Emp" name="EmpStat" value="Emp">
+                        <label class="form-label">Employed</label>
+                        <input class="form-check-input" type="radio" id="UnEmp" name="EmpStat" value="UnEmp">
+                        <label class="form-label">Un-Employed</label>
+                        <input class="form-check-input" type="radio" id="SelfEmp" name="EmpStat" value="SelfEmp">
+                        <label class="form-label">Self-Employed</label>
+                        <input class="form-check-input" type="radio" id="Student" name="EmpStat" value="Student">
+                        <label class="form-label">Student</label>
+                    </Div>
+                    <br>
+                    <!--link-->
+                    <label class="form-label">Please provide your resume link</label>
+                    <input class="form-control" type="url" id="Resume" placeholder="http://Your_resume_link">
+                    <br>
+                    <label class="form-label">Please upload your resume</label>
+                    <input class="form-control" type="file" id="Resume">
+                </form>
+            </div>
+        </div>
+        <div class="row row-container-2">
+            <div class="col col-container-1 ">
+                <form>
+                    <label class="form-label">Do you have references? (optional)</label>
+                    <div class="input-group">
+
+                        <input type="text" id="fname" placeholder="First Name" class="form-control">
+                        <input type="text" id="mname" placeholder="Midle Name" class="form-control">
+                        <input type="text" id="lname" placeholder="Last Name" class="form-control">
+                    </div>
+                    <br>
+                    <div class="input-group ">
+                        <input type="text" id="fname" placeholder="First Name" class="form-control">
+                        <input type="text" id="mname" placeholder="Midle Name" class="form-control">
+                        <input type="text" id="lname" placeholder="Last Name" class="form-control">
+                    </div>
+                    <br><br>
+                    <div>
+                        <button type="reset" class="btn">reset</button>
+                        <input type="submit" class="btn" onclick="alert('your message have been submitted')"
+                            value="Apply">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <form>
+
+</body>
+
+</html>

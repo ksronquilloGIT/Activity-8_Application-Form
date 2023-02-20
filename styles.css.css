@@ -1,0 +1,54 @@
+html {
+    background-color: rgb(21, 22, 24);
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+
+.form-container{
+    border-radius: 20px;
+    background-color: rgb(21, 22, 24);
+    
+}
+
+.row-container-1,.row-container-2 ,.h5,.h2{
+   background-color: #28323b; 
+}
+.h5, h2{
+    padding-bottom: 20px;
+}
+.col-container-1,.col-container-2, .col-container-3,form,label, span{
+    background-color: #28323b; 
+    
+}
+.col-container-0, .col-container-1, .col-container-2,.col-container-3 {
+    background-color: #28323b; 
+    padding: 20px;
+        
+}
+.input-group, div, .input-group-text,.input-select,.form-select,.input, .form-label{
+    background-color: #28323b; 
+    color: lightgray;
+}
+span{
+    background-color: #28323b; 
+    
+}
+
+.btn{
+    
+    color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 20%;
+    font-weight: bold;
+    font-size: x-large;
+text-align: center;
+  
+    
+}
+
+.btn:hover {
+    background-color: #52ad8a;
+}
